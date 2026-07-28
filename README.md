@@ -1,7 +1,7 @@
 # EXPERIMENT--02-INTEFACING-A-DIGITAL-INPUT-TO-ARM-DEVELOPMENT-BOARD
-## Name :
-## Roll no :
-## Date of Experiment :
+## Name :Nitish Adavan D
+## Roll no :212224240107
+## Date of Experiment :28-07-20206
 
 ## Aim: To Interface a Digital Input  (userpush button  ) to ARM   development board and write a  program to obtain  the data and flash the led  
 ## Components required: STM32 CUBE IDE, ARM IOT development board,  STM programmer tool.
@@ -59,9 +59,18 @@ The full form of an ARM is an advanced reduced instruction set computer (RISC) m
 
 
 ## Output  :
+
+<img width="1357" height="945" alt="image" src="https://github.com/user-attachments/assets/fe545f19-41e7-4f20-9bb3-3100d7c484ba" />
+
+<img width="1361" height="951" alt="image" src="https://github.com/user-attachments/assets/5465192f-4857-443d-9f79-7dcd07aa9b7b" />
+
+
  
 ## layout of the circuit 
- 
+
+ <img width="1033" height="857" alt="image" src="https://github.com/user-attachments/assets/d2097db4-ccb1-4ca3-8a16-9008e6a23686" />
+
+
  
 ## Result :
 Interfacing a digital Input (Pushbutton ) with ARM microcontroller based IOT development is executed and the results are verified.
