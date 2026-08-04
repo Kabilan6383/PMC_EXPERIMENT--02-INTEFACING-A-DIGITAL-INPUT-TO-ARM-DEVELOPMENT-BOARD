@@ -56,22 +56,43 @@ The full form of an ARM is an advanced reduced instruction set computer (RISC) m
 
 ## STM 32 CUBE PROGRAM :
 
-
+```
+#include "main.h"
+#include<stdbool.h>
+bool a;
+void SystemClock_Config(void);
+static void MX_GPIO_Init(void);
+static void MX_USART1_UART_Init(void);
+int main(void)
+{
+     HAL_Init();
+     SystemClock_Config();
+     MX_GPIO_Init();
+     MX_USART1_UART_Init();
+while (1)
+    {
+  	  a=HAL_GPIO_ReadPin(GPIOC,GPIO_PIN_13);
+  	  if(a==0)
+  	  {
+  		  HAL_GPIO_WritePin(GPIOA,GPIO_PIN_5,GPIO_PIN_SET);
+  		  HAL_Delay(1000);
+  	  }
+  	  else
+  	  {
+  		  HAL_GPIO_WritePin(GPIOA,GPIO_PIN_5,GPIO_PIN_RESET);
+  		  HAL_Delay(1000);
+  	  }
+}}
+```
 
 ## Output  :
 
-<img width="1357" height="945" alt="image" src="https://github.com/user-attachments/assets/fe545f19-41e7-4f20-9bb3-3100d7c484ba" />
-
-<img width="1361" height="951" alt="image" src="https://github.com/user-attachments/assets/5465192f-4857-443d-9f79-7dcd07aa9b7b" />
+<img width="1200" height="1600" alt="WhatsApp Image 2026-08-04 at 9 28 12 AM" src="https://github.com/user-attachments/assets/4c9ad32d-7a9a-470c-a195-a6cf3c5c131f" />
 
 
- 
-## layout of the circuit 
-
- <img width="1033" height="857" alt="image" src="https://github.com/user-attachments/assets/d2097db4-ccb1-4ca3-8a16-9008e6a23686" />
+<img width="1200" height="1600" alt="WhatsApp Image 2026-08-04 at 9 28 13 AM" src="https://github.com/user-attachments/assets/7cf3f24b-7457-4e01-b440-09e7c990c849" />
 
 
- 
 ## Result :
 Interfacing a digital Input (Pushbutton ) with ARM microcontroller based IOT development is executed and the results are verified.
 
