@@ -1,7 +1,7 @@
 # EXPERIMENT--02-INTEFACING-A-DIGITAL-INPUT-TO-ARM-DEVELOPMENT-BOARD
-## Name :Nitish Adavan D
-## Roll no :212224240107
-## Date of Experiment :28-07-20206
+## Name :KABILAN.P
+## Roll no :212224040145
+## Date of Experiment :15-08-2026
 
 ## Aim: To Interface a Digital Input  (userpush button  ) to ARM   development board and write a  program to obtain  the data and flash the led  
 ## Components required: STM32 CUBE IDE, ARM IOT development board,  STM programmer tool.
